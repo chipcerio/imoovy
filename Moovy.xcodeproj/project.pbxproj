@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		673B5B0D1F7F4E5900837D6B /* TrendingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B5B0C1F7F4E5900837D6B /* TrendingViewModel.swift */; };
+		673B5B101F7F4F0A00837D6B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B5B0F1F7F4F0A00837D6B /* ApiService.swift */; };
+		673B5B181F7F597200837D6B /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B5B171F7F597200837D6B /* TrendingViewController.swift */; };
+		673B5B1A1F7F59F500837D6B /* Trending.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673B5B191F7F59F500837D6B /* Trending.storyboard */; };
 		67584B001F7AB30300699C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67584AFF1F7AB30300699C4E /* AppDelegate.swift */; };
 		67584B021F7AB30300699C4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67584B011F7AB30300699C4E /* ViewController.swift */; };
 		67584B051F7AB30300699C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67584B031F7AB30300699C4E /* Main.storyboard */; };
 		67584B071F7AB30300699C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67584B061F7AB30300699C4E /* Assets.xcassets */; };
 		67584B0A1F7AB30300699C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67584B081F7AB30300699C4E /* LaunchScreen.storyboard */; };
+		C1C3FD58D95FFA547D690782 /* Pods_Moovy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD90CE0223B3BD45DCA5C01 /* Pods_Moovy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		673B5B0C1F7F4E5900837D6B /* TrendingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewModel.swift; sourceTree = "<group>"; };
+		673B5B0F1F7F4F0A00837D6B /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		673B5B171F7F597200837D6B /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		673B5B191F7F59F500837D6B /* Trending.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Trending.storyboard; sourceTree = "<group>"; };
 		67584AFC1F7AB30300699C4E /* Moovy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moovy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67584AFF1F7AB30300699C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67584B011F7AB30300699C4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		67584B061F7AB30300699C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67584B091F7AB30300699C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67584B0B1F7AB30300699C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD90CE0223B3BD45DCA5C01 /* Pods_Moovy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moovy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E4B7FB697C311EC9E4F159 /* Pods-Moovy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moovy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moovy/Pods-Moovy.debug.xcconfig"; sourceTree = "<group>"; };
+		F55331446E7C95F522D35CD3 /* Pods-Moovy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moovy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moovy/Pods-Moovy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C3FD58D95FFA547D690782 /* Pods_Moovy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		673B5B0A1F7F4B8500837D6B /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				673B5B0C1F7F4E5900837D6B /* TrendingViewModel.swift */,
+				673B5B171F7F597200837D6B /* TrendingViewController.swift */,
+				673B5B191F7F59F500837D6B /* Trending.storyboard */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		673B5B0B1F7F4BA500837D6B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		673B5B0E1F7F4EF700837D6B /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				673B5B0F1F7F4F0A00837D6B /* ApiService.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		67584AF31F7AB30200699C4E = {
 			isa = PBXGroup;
 			children = (
 				67584AFE1F7AB30300699C4E /* Moovy */,
 				67584AFD1F7AB30300699C4E /* Products */,
+				C340C221618ECDD61EC6E14F /* Pods */,
+				D45397480E668ABC6F957F25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +94,9 @@
 		67584AFE1F7AB30300699C4E /* Moovy */ = {
 			isa = PBXGroup;
 			children = (
+				673B5B0E1F7F4EF700837D6B /* Api */,
+				673B5B0B1F7F4BA500837D6B /* Data */,
+				673B5B0A1F7F4B8500837D6B /* Features */,
 				67584AFF1F7AB30300699C4E /* AppDelegate.swift */,
 				67584B011F7AB30300699C4E /* ViewController.swift */,
 				67584B031F7AB30300699C4E /* Main.storyboard */,
@@ -64,6 +107,23 @@
 			path = Moovy;
 			sourceTree = "<group>";
 		};
+		C340C221618ECDD61EC6E14F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7E4B7FB697C311EC9E4F159 /* Pods-Moovy.debug.xcconfig */,
+				F55331446E7C95F522D35CD3 /* Pods-Moovy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D45397480E668ABC6F957F25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACD90CE0223B3BD45DCA5C01 /* Pods_Moovy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67584B0E1F7AB30300699C4E /* Build configuration list for PBXNativeTarget "Moovy" */;
 			buildPhases = (
+				090E416CE26BA1C4FCB8C638 /* [CP] Check Pods Manifest.lock */,
 				67584AF81F7AB30200699C4E /* Sources */,
 				67584AF91F7AB30200699C4E /* Frameworks */,
 				67584AFA1F7AB30200699C4E /* Resources */,
+				29C86A3CC84286AF86E2167E /* [CP] Embed Pods Frameworks */,
+				4D465500AB81FBEDE3C4B039 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67584B0A1F7AB30300699C4E /* LaunchScreen.storyboard in Resources */,
+				673B5B1A1F7F59F500837D6B /* Trending.storyboard in Resources */,
 				67584B071F7AB30300699C4E /* Assets.xcassets in Resources */,
 				67584B051F7AB30300699C4E /* Main.storyboard in Resources */,
 			);
@@ -132,12 +196,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		090E416CE26BA1C4FCB8C638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29C86A3CC84286AF86E2167E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moovy/Pods-Moovy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D465500AB81FBEDE3C4B039 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moovy/Pods-Moovy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67584AF81F7AB30200699C4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				67584B021F7AB30300699C4E /* ViewController.swift in Sources */,
+				673B5B0D1F7F4E5900837D6B /* TrendingViewModel.swift in Sources */,
+				673B5B181F7F597200837D6B /* TrendingViewController.swift in Sources */,
+				673B5B101F7F4F0A00837D6B /* ApiService.swift in Sources */,
 				67584B001F7AB30300699C4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +372,7 @@
 		};
 		67584B0F1F7AB30300699C4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E4B7FB697C311EC9E4F159 /* Pods-Moovy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 25PSAK2QTC;
@@ -270,6 +386,7 @@
 		};
 		67584B101F7AB30300699C4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F55331446E7C95F522D35CD3 /* Pods-Moovy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 25PSAK2QTC;
@@ -300,6 +417,7 @@
 				67584B101F7AB30300699C4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
